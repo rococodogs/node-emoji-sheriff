@@ -1,5 +1,7 @@
 node-emoji-sheriff
-------------------
+==================
+
+[![Build Status](https://travis-ci.org/malantonio/node-emoji-sheriff.svg?branch=master)](https://travis-ci.org/malantonio/node-emoji-sheriff)
 
 it's past its prime, but here's a module to construct an
 emoji sheriff (or really whatever kind of string sheriff
@@ -13,9 +15,11 @@ var sheriff = require('emoji-sheriff')
 
 ### `emojiSheriff(bodyEmoji)`
 
+pass it an emoji and it builds a body.
+
 ```js
 console.log(sheriff('🍨'))
-//      🤠
+//     🤠
 //   🍨 🍨 🍨
 //  🍨  🍨  🍨
 //  👇 🍨 🍨 👇
@@ -26,7 +30,7 @@ console.log(sheriff('🍨'))
 
 ### `emojiSheriff(opts)`
 
-opts can be:
+or pass it an object with the pieces spelled out. available options:
 
 - `feet`
   - or `leftFoot`, `rightFoot`
