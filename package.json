@@ -1,0 +1,15 @@
+{
+  "name": "emoji-sheriff",
+  "version": "1.0.0",
+  "description": "Easily generate an emoji sheriff",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": ["emoji", "emoji-sheriff"],
+  "author": "Adam Malantonio <adam.malantonio@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
