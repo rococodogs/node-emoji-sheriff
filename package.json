@@ -11,5 +11,10 @@
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.9.1"
+  },
+  "homepage": "https://github.com/malantonio/node-emoji-sheriff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malantonio/node-emoji-sheriff"
   }
 }
